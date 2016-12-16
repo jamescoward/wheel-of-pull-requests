@@ -4,7 +4,6 @@ const express = require('express');
 const wss = new WebSocketServer({ port:8080 });
 
 const app = express();
-console.log(__dirname);
 app.use(express.static(__dirname + '/../client'));
 
 app.get('/spin', (req, res) => {
