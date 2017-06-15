@@ -21,7 +21,9 @@ const people = [
 ```
 
 Run `npm start`
+
 To see the wheel go to `localhost:8082`
+
 To spin the wheel go to `localhost:8082/spin`
 
 
