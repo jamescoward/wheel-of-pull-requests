@@ -14,3 +14,6 @@ app.get('/spin', (req, res) => {
 });
 
 app.listen(8082);
+
+console.log('Wheel of Pull Requests running on http://localhost:8082 \n');
+console.log('Spin the wheel at http://localhost:8082/spin \n');
